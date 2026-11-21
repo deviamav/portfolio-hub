@@ -1,14 +1,14 @@
 # portfolio-hub
 
-Public index for selected work by [`deviamav`](https://github.com/deviamav).
+Public index for [`deviamav`](https://github.com/deviamav) — links to **separate** product repositories.
 
-Each product is a **separate repository**. This hub only links to those repos and (optionally) static demos on GitHub Pages.
+**Live:** https://deviamav.github.io/portfolio-hub/
 
-## Pages
+## What’s intentionally missing
 
-1. Repo: `deviamav/portfolio-hub`
-2. **Settings → Pages** → Deploy from branch `main` → folder `/` (root)
-3. URL: `https://deviamav.github.io/portfolio-hub/`
+- No CV / contact details
+- No mediocre screenshot gallery (reviewers get clearer signal from READMEs + local runs)
+- No monorepo dump — each product is its own repo
 
 ## Local
 
@@ -16,7 +16,6 @@ Each product is a **separate repository**. This hub only links to those repos an
 npx --yes serve .
 ```
 
-## Policy
+## License
 
-- No CVs, contact details, or client identifiers in this repository.
-- App descriptions note when data is synthetic / demo-only.
+MIT
