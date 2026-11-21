@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Selected systems — deploy ops, analytics, GIS, bots, and static craft."
+    />
+    <title>Studio · Selected Work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="glow" aria-hidden="true"></div>
+
+    <nav class="nav">
+      <a class="mark" href="#top">studio<span>/</span>lab</a>
+      <div class="nav-links">
+        <a href="#systems">Systems</a>
+        <a href="#sites">Sites</a>
+        <a href="#preview">Preview</a>
+      </div>
+      <a class="nav-cta" href="https://github.com/deviamav" rel="noreferrer">GitHub</a>
+    </nav>
+
+    <header class="hero" id="top">
+      <p class="kicker">Full-stack engineer · systems & product UI · 2026</p>
+      <h1>
+        Tools that survive
+        <em>real traffic</em>
+        and quiet nights.
+      </h1>
+      <p class="lede">
+        Deploy consoles, analytics, GIS pipelines, real-time boards, Telegram
+        bridges — production-shaped and sanitized for public review. Each
+        product lives in its own repository under
+        <a href="https://github.com/deviamav">github.com/deviamav</a>.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="#systems">Browse systems</a>
+        <a class="btn btn-ghost" href="#preview">How to preview</a>
+      </div>
+      <dl class="hero-meta">
+        <div><dt>Apps</dt><dd>5</dd></div>
+        <div><dt>Sites</dt><dd>4</dd></div>
+        <div><dt>Stack</dt><dd>TS · Python · Docker</dd></div>
+      </dl>
+    </header>
+
+    <main>
+      <section class="block" id="systems">
+        <div class="block-head">
+          <h2>Systems</h2>
+          <p>Production-shaped products. Separate repos · run locally · read the README.</p>
+        </div>
+        <div id="apps-grid" class="rail" role="list"></div>
+      </section>
+
+      <section class="block" id="sites">
+        <div class="block-head">
+          <h2>Sites</h2>
+          <p>Next.js + Three.js marketing craft · static export for GitHub Pages.</p>
+        </div>
+        <div id="sites-grid" class="rail rail-sites" role="list"></div>
+      </section>
+
+      <section class="block block-guide" id="preview">
+        <div class="block-head">
+          <h2>Preview without servers</h2>
+        </div>
+        <ol class="steps">
+          <li><strong>Hub:</strong> this site is served from the <code>portfolio-hub</code> repo via Pages.</li>
+          <li><strong>Sites:</strong> each marketing repo can enable Pages from its <code>out/</code> build.</li>
+          <li><strong>Apps:</strong> clone the repo → follow README → typically <code>docker compose up</code> + migrate.</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span>github.com/deviamav</span>
+      <span class="sep">·</span>
+      <span>Synthetic demo data where noted</span>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
